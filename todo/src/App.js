@@ -3,6 +3,12 @@ import AddToDo from './actions/index.js';
 import './App.css';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      todos: []
+    }
+  }
   render() {
     return (
       <div>
